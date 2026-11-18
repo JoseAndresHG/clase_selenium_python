@@ -3,7 +3,9 @@ Característica: Registro e inicio de sesión de usuario
   
 Escenario: Registro exitoso de un usuario
     Dado que la pagina abre el registro
-    Entonces el usuario se registra exitosamente
+    Cuando el usuario se registra
+    Entonces el usuario ve el mensaje "Your resgistration completed"
+
 
 #Escenario: Inicio de sesión exitoso
   #  Dado que el usuario abre la página de inicio de sesión

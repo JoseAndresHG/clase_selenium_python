@@ -10,5 +10,5 @@ class RegistrationLocators:
     PASSWORD_INPUT = (By.ID, "Password")
     CONFIRM_PASSWORD_INPUT = (By.ID, "ConfirmPassword")
     REGISTER_BUTTON = (By.ID, "register-button")
-    SUCCESS_MESSAGE = (By.XPATH, "//font[contains(normalize-space(), 'Tu registro se ha completado')]")
+    SUCCESS_MESSAGE = (By.CLASS_NAME, "result")
     ERROR_MESSAGE = (By.CSS_SELECTOR, "div.error-message")
